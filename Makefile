@@ -160,6 +160,7 @@ else ifeq ($(platform), emscripten)
    fpic := -fPIC
    SKIP_LIBRETRO_COMMON := 1
    SHARED := -shared
+   STATIC_LINKING = 1
 
 # PlayStation Vita(TM)
 else ifeq ($(platform), vita)
